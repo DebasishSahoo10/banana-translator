@@ -15,7 +15,6 @@ body {
 
 .image {
     max-width: 80px;
-    display: inline-block;
 }
 
 .text {
@@ -49,6 +48,7 @@ body {
     border-radius: 1rem 1rem;
     background-color: white;
     margin-bottom: 6.5rem;
+    overflow: scroll;
 }
 
 #input-box {
