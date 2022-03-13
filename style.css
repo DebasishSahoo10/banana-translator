@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root {
+    --primary-color: #E1D5E2;
+    --secondary-color: #F0E5F5;
+    --third-color: #5C3F7A;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin: 0rem;
+}
+
+.image {
+    max-width: 80px;
+    display: inline-block;
+}
+
+.text {
+    margin: auto;
+    max-width: 900px;
+    margin-bottom: 0.83em;
+    padding: 0rem 2rem;
+}
+
+.nav {
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 1rem 0rem;
+    margin-bottom: 6.5rem;
+    color: var(--third-color);
+}
+
+.about {
+    margin-bottom: 0rem;
+}
+
+#output-box {
+    width: 50%;
+    border: 2px black solid;
+    height: 10vh;
+    margin: 2rem;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    font-size: larger;
+    border-radius: 1rem 1rem;
+    background-color: white;
+    margin-bottom: 6.5rem;
+}
+
+#input-box {
+    width: 50%;
+    border: 2px black solid;
+    height: 10vh;
+    margin: 2rem;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1rem 1rem;
+}
+
+.button {
+    margin: 1rem;
+    text-align: center;
+}
+
+#translate-btn {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.1rem 0.1rem;
+    background-color: var(--secondary-color);
+}
+
+
