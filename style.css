@@ -37,7 +37,7 @@ body {
 }
 
 #output-box {
-    width: 50%;
+    width: 60%;
     border: 2px black solid;
     height: 10vh;
     margin: 2rem;
@@ -45,14 +45,13 @@ body {
     padding: 1rem;
     margin: auto;
     font-size: larger;
-    border-radius: 1rem 1rem;
     background-color: white;
     margin-bottom: 6.5rem;
     overflow: scroll;
 }
 
 #input-box {
-    width: 50%;
+    width: 60%;
     border: 2px black solid;
     height: 10vh;
     margin: 2rem;
@@ -61,7 +60,6 @@ body {
     margin: auto;
     font-size: larger;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 1rem 1rem;
 }
 
 .button {
