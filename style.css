@@ -44,6 +44,9 @@ body {
     margin-top: 0rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 #output-box {
