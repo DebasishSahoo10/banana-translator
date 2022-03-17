@@ -16,10 +16,3 @@ function clickHandler () {
 }
 
 translateButton.addEventListener ("click", clickHandler)
-
-var initialScreenSize = window.innerHeight; 
-window.addEventListener("resize", function() {
-   if(window.innerHeight < initialScreenSize){
-        $("footer").hide(); 
-   } else{ 
-        $("footer").show(); } });
