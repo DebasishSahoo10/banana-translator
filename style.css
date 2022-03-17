@@ -16,7 +16,6 @@ body {
     width: 100%;
     background-color: var(--primary-color);
     margin: 0rem;
-    min-height: 100%;
 }
 
 .image {

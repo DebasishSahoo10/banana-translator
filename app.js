@@ -17,3 +17,7 @@ function clickHandler () {
 
 translateButton.addEventListener ("click", clickHandler)
 
+var fixed = document.querySelector(".fixed"),
+    distanceFromTop = fixed.getBoundingClientRect().top;
+fixed.style.top = distanceFromTop + 'px';
+fixed.style.bottom = 'auto';
