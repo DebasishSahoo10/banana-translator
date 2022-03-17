@@ -16,6 +16,9 @@ body {
     width: 100%;
     background-color: var(--primary-color);
     margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .image {
@@ -33,20 +36,17 @@ body {
 .nav {
     text-align: center;
     background-color: var(--primary-color);
-    padding: 1rem 0rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
     color: var(--secondary-color);
+    margin-top: 0.5rem;
 }
-
 .about {
     margin-bottom: 0rem;
     margin-top: 0rem;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding: 1rem 0rem;
 }
 
 #output-box {
@@ -66,7 +66,6 @@ body {
     width: 80%;
     border: 2px black solid;
     height: 10vh;
-    margin: 2rem;
     display: block;
     padding: 1rem;
     margin: auto;
