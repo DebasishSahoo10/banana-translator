@@ -15,4 +15,9 @@ function clickHandler () {
     .then (json => output.innerText = json.contents.translated)
 }
 
+function typeIdentifier () {
+    output.innerText = (" ")
+}
+
 translateButton.addEventListener ("click", clickHandler)
+input.addEventListener ("change", typeIdentifier)
