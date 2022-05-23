@@ -59,7 +59,7 @@ h1 {
 
 
 #output-box {
-    width: 80%;
+    width: 40%;
     border: 2px black solid;
     height: 10vh;
     margin: 2rem;
@@ -74,7 +74,7 @@ h1 {
 }
 
 #input-box {
-    width: 80%;
+    width: 40%;
     border: 2px black solid;
     height: 10vh;
     display: block;
@@ -102,3 +102,11 @@ h1 {
 }
 
 
+@media only screen and (max-width: 900px) {
+    #input-box {
+      width: 80%;
+    }
+    #output-box {
+        width: 80%;
+      }
+  }
