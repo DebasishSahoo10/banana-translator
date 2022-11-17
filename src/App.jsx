@@ -4,7 +4,7 @@ let serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function App() {
   let [inputValue, setInput] = useState("");
-  let [outputValue, setOutput] = useState("your output will come here");
+  let [outputValue, setOutput] = useState("");
   let API = (text) => {
     return serverURL + "?" + "text=" + text;
   };
@@ -28,11 +28,14 @@ function App() {
           id="input-field"
         ></input>
 
-        <button onClick={fetchData}>Translate</button>
+        
 
-        <div id='output-field' placeholder="Enter text here">{outputValue}</div>
+        <div id='output-field' contentEditable={true} data-text="your output will come here">{outputValue}</div>
 
-        <p>
+
+        <button onClick={fetchData} id="fetch-btn">Translate</button>
+
+        <p id='detail-tab-one'>
           Are you a fan of minions? Did you know that the gibberish they say is an
           actual language.
         </p>

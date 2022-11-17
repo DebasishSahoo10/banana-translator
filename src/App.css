@@ -35,29 +35,38 @@ background: #FFFFFF;
 border: 5px solid #FFBC38;
 
 text-align: center;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+color: rgb(0, 0, 0, 0.55);
 }
 
 #output-field {
-  box-sizing: border-box;
+box-sizing: border-box;
 
-  position: absolute;
-  width: 600px;
-  height: 300px;
-  left: 762px;
-  top: 497px;
+position: absolute;
+width: 600px;
+height: 300px;
+left: 762px;
+top: 450px;
   
-  background: #FFFFFF;
-  border: 5px solid #FFBC38;
+background: #FFFFFF;
+border: 5px solid #FFBC38;
 
-  font-family: 'Syne';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 38px;
-  text-align: center;
-  font-
+vertical-align: auto;
 
-  color: #000000;
+font-family: 'Syne';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 250px;
+text-align: center;
+
+color: rgb(0, 0, 0, 0.55);
 }
 
 ::placeholder {
@@ -70,4 +79,51 @@ line-height: 38px;
 color: #000000;
 
 opacity: 0.55;
+}
+
+[contentEditable=true]:empty:not(:focus):before {
+content: attr(data-text);
+position: absolute;
+top: 40%;
+left: 130px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.55;
+}
+
+#fetch-btn {
+box-sizing: border-box;
+
+position: absolute;
+width: 180px;
+height: 180px;
+left: 1280px;
+top: 379px;
+
+background: #FFFFFF;
+border: 5px solid #FFBC38;
+border-radius: 50%;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 38px;
+text-decoration-line: underline;
+
+color: #000000;
+
+transform: rotate(-28.5deg);
+}
+
+#detail-tab-one {
+  
 }
