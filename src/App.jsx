@@ -33,7 +33,7 @@ function App() {
         <div id='output-field' contentEditable={true} data-text="your output will come here">{outputValue}</div>
 
 
-        <button onClick={fetchData} id="fetch-btn">Translate</button>
+        <button onClick={fetchData} id="fetch-btn">translate</button>
 
 
         <p id='detail-tab-one'>
