@@ -5,4 +5,5 @@ body {
   background-image: url(/src/assets/bg-border.svg);
   background-color: #ffffff;
   font-family: 'Syne', sans-serif;
+  overflow: hidden;
 }
