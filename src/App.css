@@ -4,13 +4,11 @@ width: 680px;
 height: 82px;
 left: 125px;
 top: 45px;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 700;
 font-size: 58px;
 line-height: 77px;
-
 color: #000000;
 }
 
@@ -24,18 +22,14 @@ top: 54px;
 
 #input-field{
 box-sizing: border-box;
-
 position: absolute;
 width: 600px;
 height: 110px;
 left: 762px;
 top: 311px;
-
 background: #FFFFFF;
 border: 5px solid #FFBC38;
-
 text-align: center;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 500;
@@ -47,25 +41,20 @@ color: rgb(0, 0, 0, 0.55);
 
 #output-field {
 box-sizing: border-box;
-
 position: absolute;
 width: 600px;
 height: 300px;
 left: 762px;
-top: 450px;
-  
+top: 450px; 
 background: #FFFFFF;
 border: 5px solid #FFBC38;
-
 vertical-align: auto;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 500;
 font-size: 28px;
 line-height: 250px;
 text-align: center;
-
 color: rgb(0, 0, 0, 0.55);
 }
 
@@ -75,9 +64,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 28px;
 line-height: 38px;
-
 color: #000000;
-
 opacity: 0.55;
 }
 
@@ -86,41 +73,33 @@ content: attr(data-text);
 position: absolute;
 top: 40%;
 left: 130px;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 500;
 font-size: 28px;
 line-height: 38px;
 text-align: center;
-
 color: #000000;
-
 opacity: 0.55;
 }
 
 #fetch-btn {
 box-sizing: border-box;
-
 position: absolute;
 width: 180px;
 height: 180px;
 left: 1280px;
 top: 379px;
-
 background: #FFFFFF;
 border: 5px solid #FFBC38;
 border-radius: 50%;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 700;
 font-size: 25px;
 line-height: 38px;
 text-decoration-line: underline;
-
 color: #000000;
-
 transform: rotate(-28.5deg);
 }
 
@@ -131,15 +110,12 @@ width: 450px;
 height: 133.94px;
 left: 1400.94px;
 top: 120px;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 36px;
-
 color: #FFAE10;
-
 transform: rotate(32.83deg);
 text-align: left;
 }
@@ -150,15 +126,12 @@ width: 500.14px;
 height: 123.95px;
 left: 113.91px;
 top: 550.4px;
-
 font-family: 'Syne';
 font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 36px;
-
 color: #FFAE10;
-
 transform: rotate(-33.11deg);
 background-color: white;
 text-align: left;
@@ -180,7 +153,6 @@ width: 380.21px;
 height: 350.99px;
 left: 1550.72px;
 top: 640.51px;
-
 filter: drop-shadow(-2px 10px 8px rgba(0, 0, 0, 0.25));
 transform: rotate(-20.05deg);
 }
