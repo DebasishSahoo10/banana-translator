@@ -1,12 +1,23 @@
-body {
-  margin: auto;
+#tittle {
+position: absolute;
+width: 680px;
+height: 82px;
+left: 125px;
+top: 45px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 77px;
+
+color: #000000;
 }
-.tittle-box {
-  border: 15px solid;
-  border-image: url(/src/assets/tittle-border.svg);
-  border-image-slice: 20;
-  background-color: black;
-  margin: 2rem 2rem;
-  padding: 0.5rem 2rem;
-  
+
+#tittle-box {
+position: absolute;
+width: 675px;
+height: 135px;
+left: 124px;
+top: 54px;
 }

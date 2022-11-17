@@ -19,26 +19,28 @@ function App() {
 
   return (
     <div className="App">
-    
-      <h1 className='tittle-box'>banana translator</h1>
-    
-      <div id='box'>
+        <img src="\src\assets\tittle-border.svg" alt="" id='tittle-box'/>
+        <h1 id='tittle'>banana translator</h1>
+
         <input
           placeholder="put your english text here"
           onChange={userInput}
-          className='tittle-box'
         ></input>
-        <button onClick={fetchData} className='tittle-box'>Translate</button>
-        <div className='tittle-box'>{outputValue}</div>
-        <p className='tittle-box'>
+
+        <button onClick={fetchData}>Translate</button>
+
+        <div>{outputValue}</div>
+
+        <p>
           Are you a fan of minions? Did you know that the gibberish they say is an
           actual language.
         </p>
-        <p className='tittle-box'>
+
+        <p>
           Use the translator to convert your text from English to
           Minion speak or Banana language.
         </p>
-      </div>
+      
       
     </div>
   )

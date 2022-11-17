@@ -1,7 +1,7 @@
-<svg width="716" height="160" viewBox="0 0 716 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="11.5" y="9.5" width="694" height="142" stroke="#0F8EFF" stroke-width="5"/>
-<rect x="700" y="2" width="14" height="14" fill="#FCFCFC" stroke="#0F8EFF" stroke-width="4"/>
-<rect x="2" y="2" width="14" height="14" fill="#FCFCFC" stroke="#0F8EFF" stroke-width="4"/>
-<rect x="700" y="144" width="14" height="14" fill="#FCFCFC" stroke="#0F8EFF" stroke-width="4"/>
-<rect x="2" y="144" width="14" height="14" fill="#FCFCFC" stroke="#0F8EFF" stroke-width="4"/>
+<svg width="683" height="143" viewBox="0 0 683 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="11.267" y="9.16446" width="661.419" height="125.559" fill="white" stroke="#FFBC38" stroke-width="5"/>
+<rect x="667.466" y="2" width="13.5339" height="12.8816" fill="#FCFCFC" stroke="#FFBC38" stroke-width="4"/>
+<rect x="2" y="2" width="13.5339" height="12.8816" fill="#FCFCFC" stroke="#FFBC38" stroke-width="4"/>
+<rect x="667.466" y="128.118" width="13.5339" height="12.8816" fill="#FCFCFC" stroke="#FFBC38" stroke-width="4"/>
+<rect x="2" y="128.118" width="13.5339" height="12.8816" fill="#FCFCFC" stroke="#FFBC38" stroke-width="4"/>
 </svg>
