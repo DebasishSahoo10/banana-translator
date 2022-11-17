@@ -35,12 +35,13 @@ function App() {
 
         <button onClick={fetchData} id="fetch-btn">Translate</button>
 
+
         <p id='detail-tab-one'>
           Are you a fan of minions? Did you know that the gibberish they say is an
           actual language.
         </p>
 
-        <p>
+        <p id='detail-tab-two'>
           Use the translator to convert your text from English to
           Minion speak or Banana language.
         </p>
