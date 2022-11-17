@@ -4,6 +4,8 @@ Are you a fan of minions? Did you know that the gibberish they say is an actual 
 ## v2.0
 -- chnaged code base from vanilla JS to react. but instead of `create-react-app`, used _svelte's_ react version as it 4 times lesser of size from default react app. also with this setup, installation of _vite_ is required.
 
+-- but I thought both of the version have their uniqueness, so you can click the `build` buttons of respective version and check the app.
+
 -- added error handling which is one of the most important thing when dealing with APIs.
 
 -- changed design to web3 inspired modern designs.
