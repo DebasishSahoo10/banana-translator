@@ -21,3 +21,53 @@ height: 135px;
 left: 124px;
 top: 54px;
 }
+
+#input-field{
+box-sizing: border-box;
+
+position: absolute;
+width: 600px;
+height: 110px;
+left: 762px;
+top: 311px;
+
+background: #FFFFFF;
+border: 5px solid #FFBC38;
+
+text-align: center;
+}
+
+#output-field {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  left: 762px;
+  top: 497px;
+  
+  background: #FFFFFF;
+  border: 5px solid #FFBC38;
+
+  font-family: 'Syne';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  font-
+
+  color: #000000;
+}
+
+::placeholder {
+font-family: 'Syne';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+
+color: #000000;
+
+opacity: 0.55;
+}
