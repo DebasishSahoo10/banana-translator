@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-        <img src="\src\assets\tittle-border.svg" alt="" id='tittle-box'/>
+        <img src="\tittle-border.svg" alt="" id='tittle-box'/>
         <h1 id='tittle'>banana translator</h1>
 
         <input
@@ -47,8 +47,8 @@ function App() {
           Minion speak or Banana language.
         </p>
       
-        <img src="\src\assets\victory-sign.svg" alt="" id='emoji-set-one'/>
-        <img src="\src\assets\footer-badge.svg" alt="" id='emoji-set-two'/>
+        <img src="\victory-sign.svg" alt="" id='emoji-set-one'/>
+        <img src="\footer-badge.svg" alt="" id='emoji-set-two'/>
     </div>
   )
 }
