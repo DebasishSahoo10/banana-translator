@@ -163,3 +163,24 @@ transform: rotate(-33.11deg);
 background-color: white;
 text-align: left;
 }
+
+#emoji-set-one {
+position: absolute;
+width: 258.23px;
+height: 279.96px;
+left: 650.38px;
+top: 600.97px;
+filter: drop-shadow(1px 8px 9px rgba(0, 0, 0, 0.25));
+transform: rotate(12deg);
+}
+
+#emoji-set-two {
+position: absolute;
+width: 380.21px;
+height: 350.99px;
+left: 1500.72px;
+top: 640.51px;
+
+filter: drop-shadow(-2px 10px 8px rgba(0, 0, 0, 0.25));
+transform: rotate(-26.05deg);
+}

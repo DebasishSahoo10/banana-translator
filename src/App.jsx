@@ -46,7 +46,8 @@ function App() {
           Minion speak or Banana language.
         </p>
       
-      
+        <img src="\src\assets\victory-sign.svg" alt="" id='emoji-set-one'/>
+        <img src="\src\assets\footer-badge.svg" alt="" id='emoji-set-two'/>
     </div>
   )
 }
