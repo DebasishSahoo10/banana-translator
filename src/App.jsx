@@ -11,7 +11,8 @@ function App() {
   let fetchData = () => {
     fetch(API(inputValue))
       .then((response) => response.json())
-      .then((json) => setOutput(json.contents.translated));
+      .then((json) => setOutput(json.contents.translated))
+      .catch(setOutput("something went wrong! try again later"))
   };
   let userInput = (e) => {
     setInput(e.target.value);
