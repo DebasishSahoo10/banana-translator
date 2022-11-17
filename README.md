@@ -16,5 +16,7 @@ Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](http
 
 -- coded using vanilla JS. for styling I used a design (and colors) which pops up to the eye. made the design responsive as well.
 
+-- [API Docs](https://funtranslations.com/api/minion) : fetched data's conversion and format for POST call is documented here.
+
 -- [![Room
 Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](https://minionme.netlify.app/)
