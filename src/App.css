@@ -1,0 +1,12 @@
+body {
+  margin: auto;
+}
+.tittle-box {
+  border: 15px solid;
+  border-image: url(/src/assets/tittle-border.svg);
+  border-image-slice: 20;
+  background-color: black;
+  margin: 2rem 2rem;
+  padding: 0.5rem 2rem;
+  
+}
