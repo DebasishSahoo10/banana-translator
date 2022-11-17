@@ -13,6 +13,8 @@ Are you a fan of minions? Did you know that the gibberish they say is an actual 
 -- [![Room
 Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](https://minionyou.vercel.app/)
 
+![v2.0](/images/v2.0.png)
+
 ## v1.0
 -- this is first time I got my hands on with API and data fetching. it prepared me to have an insight about how things work at scale using APIs and external servers.
 
@@ -22,3 +24,5 @@ Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](http
 
 -- [![Room
 Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](https://minionme.netlify.app/)
+
+![v1.0](/images/v1.0.png)
