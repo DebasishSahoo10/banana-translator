@@ -8,7 +8,7 @@ Are you a fan of minions? Did you know that the gibberish they say is an actual 
 
 -- added error handling which is one of the most important thing when dealing with APIs.
 
--- changed design to web3 inspired modern designs.
+-- changed design to web3 inspired modern designs. although this site is not fully responsive as of now.
 
 -- [![Room
 Status](https://travis-ci.org/jswanner/markdown-buttons.svg?branch=master)](https://minionyou.vercel.app/)
