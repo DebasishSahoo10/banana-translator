@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+      <div id='wrapper-div'>
         <img src="\tittle-border.svg" alt="" id='tittle-box'/>
         <h1 id='tittle'>banana translator</h1>
 
@@ -49,6 +50,7 @@ function App() {
       
         <img src="\victory-sign.svg" alt="" id='emoji-set-one'/>
         <img src="\footer-badge.svg" alt="" id='emoji-set-two'/>
+      </div>
     </div>
   )
 }
